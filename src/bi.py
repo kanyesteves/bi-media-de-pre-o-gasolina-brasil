@@ -41,7 +41,7 @@ else:
 
 max_preco = df_filtered_bar.max()
 col3.bar_chart(df_filtered_bar, x="ANO", y="PREÇO MÉDIO REVENDA")
-col4.write(f"O aumento entre o ano 2004 e 2021 foi relativamente grande, mas o pico mesmo foi em {max_preco['ANO']:.0f}, onde o combustível {product} alcançou a média R$ {max_preco['PREÇO MÉDIO REVENDA']:.3f}")
+col4.write(f"O aumento do preço é crescente em todos os estados durante os anos, mas o pico foi no ano de {max_preco['ANO']:.0f}, onde o combustível {product} alcançou a média R$ {max_preco['PREÇO MÉDIO REVENDA']:.3f} Reais.")
 
 
 st.subheader("Percentual de aumento de ano a ano")
