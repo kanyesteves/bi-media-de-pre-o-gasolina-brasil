@@ -1,4 +1,4 @@
-# Analise dos preços dos combustíveis no brasil
+# Documentação para Execução do Projeto de Analises de preços dos combustíveis no brasil
 
 Este guia fornece instruções passo a passo para configurar e executar seu projeto pessoal em uma máquina Linux.
 
